@@ -1,0 +1,10 @@
+<Alloy>
+	<Window class="container">
+		<ImageView id="imageLogin"/>
+		<Label top="10">Login Example #1</Label>
+		<TextField id="userName"></TextField>
+		<TextField id="password"></TextField>
+		<Button id="btn_login" onClick="CheckLogin" title="Login">Login</Button>
+		<Button id="btn_setLogin" onClick="SetLogin" title="Register">Register</Button>
+	</Window>
+</Alloy>

@@ -1,0 +1,45 @@
+
+".container" : {
+  layout: "vertical",
+	backgroundColor: "teal"
+}
+".header" : {
+	height: "50%",
+	width: "100%"
+}
+"#view1" : {
+	layout: "horizontal",
+	backgroundColor: "red",
+	height: "25%"
+}
+".pageText" : {
+	top: "60%"
+}
+"#sub1a" : {
+	backgroundColor: "blue",
+	width: "50%",
+	height: "100%"
+}
+
+"#sub1b" : {
+	backgroundColor: "silver",
+	width: "50%",
+	height: "100%"
+}
+"#view2" : {
+	layout: "horizontal",
+	backgroundColor: "pink",
+	height: "25%"
+}
+
+"#sub2a" : {
+	backgroundColor: "green",
+	width: "50%",
+	height: "100%"
+}
+
+"#sub2b" : {
+	backgroundColor: "purple",
+	width: "50%",
+	height: "100%"
+}
