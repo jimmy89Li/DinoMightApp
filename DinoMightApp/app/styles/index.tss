@@ -10,31 +10,33 @@
 }
 
 "#label": {
+	width: "85%",
 	font: {
-		fontSize: 12
+		fontSize: 12,
+		textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
 	}
 }
 "#ImageView": 
 {
-	height:"40%",
+	height:"auto",
+	width: "100%",
 	image:"Incontinence.jpg"
 }
 "#User":
 {
 	layout:"vertical",
-	height:"25%"
+	height:"21%"
 }
 "#LoginRegister":
 {
 	layout:"horizontal",
 	width: Ti.UI.SIZE,
-	height:"15%"
+	height:"10%"
 	
 }
 "#Proceed":
 {
-	layout:"vertical",
-	height:"30%"
+	layout: "vertical"
 }
 "#username":{
 	width: "50%", 
@@ -62,19 +64,18 @@
 }
 "#Btn_Login": {
 	width: "40%", 
-	top: 10,
 	borderRadius: 10,
 	backgroundColor: "blue",
 }
 "#Btn_Register": {
 	width: "40%", 
-	top: 10,
+	left: 10,
 	borderRadius: 10,
 	backgroundColor: "blue",
 }
 "#Btn_Proceed":{
 	width:"40%",
-	top:10,
+	top: 5,
 	borderRadius: 10,
 	backgroundColor: "blue"
 }

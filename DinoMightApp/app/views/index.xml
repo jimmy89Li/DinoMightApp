@@ -17,7 +17,7 @@
 		
 		
 		<View id="Proceed">
-		<Label id="label">Bla bla bla, and bla bla bla</Label>
+		<Label id="label">You can use the app without an account, but your statistics will not be saved.</Label>
 		<Button id="Btn_Proceed" onClick="LoadPage2">Proceed</Button>
 			
 			
