@@ -1,0 +1,57 @@
+".container": {
+	backgroundColor:"silver",
+	layout: "vertical"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#000"
+}
+
+"#imageLogin": {
+	width: "45%",
+	height: "auto",
+	image: "appicon.png"
+}
+
+"#userName":{
+	width: "60%", 
+	height: 50,
+	borderRadius: 10,
+	top: 10,
+	color: 'yellow',
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderColor: 'black',
+	hintText: 'User Name',
+	hintTextColor: "yellow"
+}
+
+"#password": {
+	width: "60%", 
+	height: 50,
+	borderRadius: 10,
+	top: 10,
+	color: 'white',
+	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
+	borderColor: 'black',
+	hintText: 'Password',
+	hintTextColor: "yellow",
+	passwordMask: true
+}
+
+"#btn_login": {
+	width: "60%", 
+	top: 10,
+	borderRadius: 10,
+	backgroundColor: "blue",
+	color:"yellow",
+}
+
+"#btn_setLogin": {
+	width: "60%", 
+	top: 10,
+	borderRadius: 10,
+	backgroundColor: "blue",
+	color:"gray",
+}
