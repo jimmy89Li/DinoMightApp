@@ -1,4 +1,4 @@
 ﻿# DinoMightApp
 Group members:
-- FLorin Iacoboae
+- Florin Iacoboae
 - Liviu Simion
