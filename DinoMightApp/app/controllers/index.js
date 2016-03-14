@@ -1,45 +1,51 @@
 function doClick(e) {
-    alert("You clicked!");
+    alert($.label.text);
 }
-
-var newUser = "";
-var newPassword = "";
-
-function SetLogin() {
-	var newUser = $.username.value;
-	var newPassword = $.password.value;
-}
-
-function CheckLogin() {
-	var UsernameText = $.userName.value;
+	
+	var newUser ="";
+	var newPassword ="";
+	
+function SetLogin()
+{
+	newUser = $.username.value;
+	newPassword = $.password.value;
+}	
+	
+function CheckLogin()
+{
+	var UsernameText = $.username.value;
 	var PasswordText = $.password.value;
-	var correctPassword = "pass";
-	var correctUsername = "user";
+	var correctPassword = "Florin";
+	var correctUsername = "Florin";
+		
 	
-	var newUsername;
-	var newPassword;
-	
-	if(
-		(UsernameText == correctUsername && PasswordText == correctPassword)
-		||
-		(newUser != "" && UsernameText == newUser && newPassword != "" && PasswordText == newPassword)
+	if (
+		(
+		 UsernameText.toLowerCase() == correctUsername.toLowerCase() 
+		 && PasswordText == correctPassword
+		 ) 
+		|| 
+		(
+		newUser != "" 
+		&& UsernameText.toLowerCase() == newUser.toLowerCase() 
+		&& PasswordText.toLowerCase() == newPassword.toLowerCase()
+	    )
+		
 	)
-		{
-			LoadPage2();
+	{ LoadPage2();
 		}
-	else {
-		alert("Incorrect login!");
+	else{
+		$.label.text="login failed, please try again";
+		$.label.color="red";
 	}
-}
-
-function LoadPage2() {
+	}
+function LoadPage2(){
 	var Var_ProductListWindow = Alloy.createController('home').getView();
-    // For Alloy projects, you can pass context
-    // to the controller in the Alloy.createController method.
-    // var win2 = Alloy.createController('win2', {foobar: 42}).getView();
-    Var_ProductListWindow.open();
+	Var_ProductListWindow.open();
+	// $ProductList.open();
+}
+function gohome(){
+	LoadPage2();
 }
 
 $.index.open();
-
-
