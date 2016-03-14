@@ -1,10 +1,29 @@
 <Alloy>
 	<Window class="container">
-		<ImageView id="imageLogin"/>
-		<Label top="10">Login Example #1</Label>
-		<TextField id="userName"></TextField>
-		<TextField id="password"></TextField>
-		<Button id="btn_login" onClick="CheckLogin" title="Login">Login</Button>
-		<Button id="btn_setLogin" onClick="SetLogin" title="Register">Register</Button>
+		
+		<ImageView id="ImageView"></ImageView>
+		
+		
+		<View id="User">
+		<TextField id="username"></TextField>
+		<TextField id="password"></TextField>	
+		</View>
+		
+		<View id="LoginRegister">
+	    <Button id="Btn_Login" onClick="CheckLogin">Login</Button>
+		<Button id="Btn_Register" onClick="SetLogin">Register</Button>
+		</View>
+		
+		
+		
+		<View id="Proceed">
+		<Label id="label">You can use the app without an account, but your statistics will not be saved.</Label>
+		<Button id="Btn_Proceed" onClick="LoadPage2">Proceed</Button>
+			
+			
+			
+			
+		</View>
 	</Window>
+	
 </Alloy>

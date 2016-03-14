@@ -1,6 +1,6 @@
 ".container": {
-	backgroundColor:"silver",
-	layout: "vertical"
+	layout:"vertical",
+	backgroundColor:"white"
 }
 
 "Label": {
@@ -9,49 +9,73 @@
 	color: "#000"
 }
 
-"#imageLogin": {
-	width: "45%",
-	height: "auto",
-	image: "appicon.png"
+"#label": {
+	width: "85%",
+	font: {
+		fontSize: 12,
+		textAlign: Titanium.UI.TEXT_ALIGNMENT_CENTER,
+	}
 }
-
-"#userName":{
-	width: "60%", 
+"#ImageView": 
+{
+	height:"auto",
+	width: "100%",
+	image:"Incontinence.jpg"
+}
+"#User":
+{
+	layout:"vertical",
+	height:"21%"
+}
+"#LoginRegister":
+{
+	layout:"horizontal",
+	width: Ti.UI.SIZE,
+	height:"10%"
+	
+}
+"#Proceed":
+{
+	layout: "vertical"
+}
+"#username":{
+	width: "50%", 
 	height: 50,
 	borderRadius: 10,
-	top: 10,
-	color: 'yellow',
+	top:10,
+	color: 'black',
 	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
 	borderColor: 'black',
 	hintText: 'User Name',
-	hintTextColor: "yellow"
+	hintTextColor: "gray"
 }
 
 "#password": {
-	width: "60%", 
+	width: "50%", 
 	height: 50,
 	borderRadius: 10,
 	top: 10,
-	color: 'white',
+	color: 'black',
 	borderStyle: Titanium.UI.INPUT_BORDERSTYLE_ROUNDED,
 	borderColor: 'black',
 	hintText: 'Password',
-	hintTextColor: "yellow",
+	hintTextColor: "gray",
 	passwordMask: true
 }
-
-"#btn_login": {
-	width: "60%", 
-	top: 10,
+"#Btn_Login": {
+	width: "40%", 
 	borderRadius: 10,
 	backgroundColor: "blue",
-	color:"yellow",
 }
-
-"#btn_setLogin": {
-	width: "60%", 
-	top: 10,
+"#Btn_Register": {
+	width: "40%", 
+	left: 10,
 	borderRadius: 10,
 	backgroundColor: "blue",
-	color:"gray",
+}
+"#Btn_Proceed":{
+	width:"40%",
+	top: 5,
+	borderRadius: 10,
+	backgroundColor: "blue"
 }
