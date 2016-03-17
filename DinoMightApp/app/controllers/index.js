@@ -11,41 +11,32 @@ function SetLogin()
 	newPassword = $.password.value;
 }	
 	
-function CheckLogin()
-{
-	var UsernameText = $.username.value;
+function CheckLogin() {
+	var UsernameText = $.userName.value;
 	var PasswordText = $.password.value;
-	var correctPassword = "Florin";
-	var correctUsername = "Florin";
-		
+	var correctPassword = "pass";
+	var correctUsername = "user";
 	
-	if (
-		(
-		 UsernameText.toLowerCase() == correctUsername.toLowerCase() 
-		 && PasswordText == correctPassword
-		 ) 
-		|| 
-		(
-		newUser != "" 
-		&& UsernameText.toLowerCase() == newUser.toLowerCase() 
-		&& PasswordText.toLowerCase() == newPassword.toLowerCase()
-	    )
-		
+	var newUsername;
+	var newPassword;
+	
+	if(
+		(UsernameText == correctUsername && PasswordText == correctPassword)
+		||
+		(newUser != "" && UsernameText == newUser && newPassword != "" && PasswordText == newPassword)
 	)
-	{ LoadPage2();
+		{
+			LoadPage2();
 		}
-	else{
-		$.label.text="login failed, please try again";
-		$.label.color="red";
+	else {
+		alert("Incorrect login!");
 	}
-	}
+}
+
 function LoadPage2(){
 	var Var_ProductListWindow = Alloy.createController('home').getView();
 	Var_ProductListWindow.open();
 	// $ProductList.open();
-}
-function gohome(){
-	LoadPage2();
 }
 
 $.index.open();

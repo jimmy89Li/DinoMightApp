@@ -17,7 +17,9 @@
 		
 		
 		<View id="Proceed">
-		<Label id="label">You can use the app without an account, but your statistics will not be saved.</Label>
+		<View id="TextBG">
+			<Label id="label">You can use the app without an account, but your statistics will not be saved.</Label>
+		</View>
 		<Button id="Btn_Proceed" onClick="LoadPage2">Proceed</Button>
 			
 			
