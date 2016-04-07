@@ -12,7 +12,7 @@ function SetLogin()
 }	
 	
 function CheckLogin() {
-	var UsernameText = $.userName.value;
+	var UsernameText = $.username.value;
 	var PasswordText = $.password.value;
 	var correctPassword = "pass";
 	var correctUsername = "user";
@@ -37,6 +37,11 @@ function LoadPage2(){
 	var Var_ProductListWindow = Alloy.createController('home').getView();
 	Var_ProductListWindow.open();
 	// $ProductList.open();
+}
+
+function Register() {
+	var Var_ProducListWindow = Alloy.createController('Register').getView();
+	Var_ProducListWindow.open();
 }
 
 $.index.open();
