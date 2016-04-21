@@ -151,5 +151,18 @@ nav {
   }
   width: 100%;
   min-height: 200px;
-  max-height: 460px;
+  max-height: 406abpx;
+}
+
+/* Tabs section */
+section#tabs {
+    background-color: #464646;
+}
+ul#tabs {
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+span.tabsUndertext {
+    font-size: 75%;
 }
