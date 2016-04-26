@@ -1,0 +1,31 @@
+<Alloy>
+	<Window class="container">
+		
+		<ImageView id="ImageView"></ImageView>
+		
+		
+		<View id="User">
+		<TextField id="username"></TextField>
+		<TextField id="password"></TextField>	
+		</View>
+		
+		<View id="LoginRegister">
+	    <Button id="Btn_Login" onClick="CheckLogin">Login</Button>
+		<Button id="Btn_Register" onClick="Register">Register</Button>
+		</View>
+		
+		
+		
+		<View id="Proceed">
+		<View id="TextBG">
+			<Label id="label">You can use the app without an account, but your statistics will not be saved.</Label>
+		</View>
+		<Button id="Btn_Proceed" onClick="LoadPage2">Proceed</Button>
+			
+			
+			
+			
+		</View>
+	</Window>
+	
+</Alloy>
