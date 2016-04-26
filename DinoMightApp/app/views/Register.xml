@@ -1,0 +1,22 @@
+<Alloy>
+	<Window class="container">
+			<View id="TitleText">
+				<Label class="TitleLabel">Register a new account</Label>
+			</View>
+			<View id="SubtitleText">
+				<Label class="SubtitleLabel">Your default avatar is: Niagara Falls</Label>
+			</View>
+		<ImageView class="header" image="niagara.png"></ImageView>
+		
+		<View id="newUser">
+		<TextField id="newUsername"></TextField>
+		<TextField id="newPassword"></TextField>	
+		</View>
+		
+		<View id="RegisterButtonsView">
+		<Button id="Btn_NewRegister" onClick="NewRegister">Register</Button>
+		<Button id="Btn_BackButton" onClick="goBack">Back</Button>
+		</View>
+		
+	</Window>
+</Alloy>
