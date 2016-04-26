@@ -3,7 +3,7 @@
 		<ImageView class="header" image="logo.png"></ImageView>
 		<View id="HomeViews">
 			<View id="view1">
-				<View id="sub1a" onClick="nextPage">
+				<View id="sub1a" onClick="infoPage">
 					<ImageView image="info.jpg"></ImageView>
 					<Label class="pageText" text="Info"></Label>
 				</View>
