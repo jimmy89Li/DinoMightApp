@@ -7,17 +7,17 @@
 					<ImageView image="info.jpg"></ImageView>
 					<Label class="pageText" text="Info"></Label>
 				</View>
-				<View id="sub1b" onClick="nextPage">
+				<View id="sub1b" onClick="videoPage">
 					<ImageView image="video.png"></ImageView>
 					<Label class="pageText" text="Video"></Label>
 				</View>
 			</View>
 			<View id="view2"> 
-				<View id="sub2a" onClick="nextPage">
+				<View id="sub2a" onClick="exercisePage">
 					<ImageView image="exercise.png"></ImageView>
 					<Label class="pageText" text="Exercises"></Label>
 				</View>
-				<View id="sub2b" onClick="nextPage">
+				<View id="sub2b" onClick="statisticsPage">
 					<ImageView image="graph.png"></ImageView>
 					<Label class="pageText" text="Statistics"></Label>
 				</View>
