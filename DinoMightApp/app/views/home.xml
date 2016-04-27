@@ -1,24 +1,26 @@
 <Alloy>
 	<Window class="container">
-		<ImageView class="header" image="Incontinence.jpg"></ImageView>
-		<View id="view1">
-			<View id="sub1a" onClick="nextPage">
-				<ImageView image="info.jpg"></ImageView>
-				<Label class="pageText" text="Info"></Label>
+		<ImageView class="header" image="logo.png"></ImageView>
+		<View id="HomeViews">
+			<View id="view1">
+				<View id="sub1a" onClick="infoPage">
+					<ImageView image="info.jpg"></ImageView>
+					<Label class="pageText" text="Info"></Label>
+				</View>
+				<View id="sub1b" onClick="nextPage">
+					<ImageView image="video.png"></ImageView>
+					<Label class="pageText" text="Video"></Label>
+				</View>
 			</View>
-			<View id="sub1b" onClick="nextPage">
-				<ImageView image="video.png"></ImageView>
-				<Label class="pageText" text="Video"></Label>
-			</View>
-		</View>
-		<View id="view2"> 
-			<View id="sub2a" onClick="nextPage">
-				<ImageView image="exercise.png"></ImageView>
-				<Label class="pageText" text="Exercises"></Label>
-			</View>
-			<View id="sub2b" onClick="nextPage">
-				<ImageView image="graph.png"></ImageView>
-				<Label class="pageText" text="Statistics"></Label>
+			<View id="view2"> 
+				<View id="sub2a" onClick="nextPage">
+					<ImageView image="exercise.png"></ImageView>
+					<Label class="pageText" text="Exercises"></Label>
+				</View>
+				<View id="sub2b" onClick="nextPage">
+					<ImageView image="graph.png"></ImageView>
+					<Label class="pageText" text="Statistics"></Label>
+				</View>
 			</View>
 		</View>
 	</Window>

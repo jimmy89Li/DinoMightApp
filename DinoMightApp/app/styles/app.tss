@@ -24,3 +24,24 @@ overrode the settings with other TSS, XML, or JS settings:
 }
 
 */
+".container" : {
+  layout: "vertical",
+	backgroundColor: "#9adaf8"
+}
+"#topMenu" : {
+	layout: "horizontal",
+	backgroundColor: "#DE728A",
+	width: "100%",
+	height: "200px"
+}
+".topButtonActive" : {
+	width: "25%",
+	backgroundColor: "#BF4C69"
+}
+".topButton" : {
+	width: "25%",
+}
+".topImage" : {
+	width: "auto",
+	height: "250px"
+}

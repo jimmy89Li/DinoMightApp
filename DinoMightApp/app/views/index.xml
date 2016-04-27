@@ -11,7 +11,7 @@
 		
 		<View id="LoginRegister">
 	    <Button id="Btn_Login" onClick="CheckLogin">Login</Button>
-		<Button id="Btn_Register" onClick="SetLogin">Register</Button>
+		<Button id="Btn_Register" onClick="Register">Register</Button>
 		</View>
 		
 		
