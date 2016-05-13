@@ -4,13 +4,13 @@
 			<View class="topButtonActive">
 				<ImageView class="topImage" image="info.jpg"></ImageView>
 			</View>
-			<View class="topButton">
+			<View class="topButton" onClick="videoPage">
 				<ImageView class="topImage" image="video.png"></ImageView>
 			</View>
-			<View class="topButton">
+			<View class="topButton" onClick="exercisePage">
 				<ImageView class="topImage" image="exercise.png"></ImageView>
 			</View>
-			<View class="topButton">
+			<View class="topButton" onClick="statisticsPage">
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
