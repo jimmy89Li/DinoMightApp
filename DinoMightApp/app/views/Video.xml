@@ -14,5 +14,10 @@
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
+		<View>
+			<VideoPlayer ns="Ti.Media"
+			url="https://fpdl.vimeocdn.com/vimeo-prod-skyfire-std-us/01/2941/5/139705057/444598846.mp4?token=573632d1_0xd89699deaef39d3cfd67c20f5be228efa212ff06" 
+			autoplay="false" ></VideoPlayer>
+		</View>vi>
 	</Window>
 </Alloy>
