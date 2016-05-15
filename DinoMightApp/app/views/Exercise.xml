@@ -14,5 +14,17 @@
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
+		<View class="content">
+			<View class="header">
+				<ImageView image="video.png"></ImageView>
+				<Label class="pageName">INCONTINENCE EXERCISES</Label>
+			</View>
+			<Label class="title">Current level: Niagara Falls</Label>
+			<Label class="subtitle">210 exercises left for next level.</Label>
+			<ImageView class="vids" image="time.png"></ImageView>
+			<Button>Proceed</Button>
+			<Label class="title">Dailly challenge progress:</Label>
+			<ImageView class="vids" image="progress.png"></ImageView>
+		</View>
 	</Window>
 </Alloy>

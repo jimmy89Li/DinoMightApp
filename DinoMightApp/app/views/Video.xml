@@ -14,5 +14,15 @@
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
+		<View class="content">
+			<View class="header">
+				<ImageView image="video.png"></ImageView>
+				<Label class="pageName">INCONTINENCE VIDEOS</Label>
+			</View>
+			<Label class="title">HOW TO USE THE APP</Label>
+			<ImageView class="vids" image="vidz.png"></ImageView>
+			<Label class="title">WHAT IS INCONTINENCE</Label>
+			<ImageView class="vids" image="vidz.png"></ImageView>
+		</View>
 	</Window>
 </Alloy>
