@@ -14,5 +14,23 @@
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
+		
+		<View class="content">
+			<View class="header">
+				<ImageView image="info.jpg"></ImageView>
+				<Label>Information</Label>
+			</View>
+			<Label class="title">The App</Label>
+			<Label class="textarea">Welcome to our app. Here you can:
+				browse between information  
+				watch videos about incontinence
+				do exercises
+				check your personal statistics
+				look at global stats
+				Use the buttons to navigate through the app
+			</Label>
+			<Label class="title">INCONTINENCE</Label>
+			<Label class="title">CONTACT</Label>
+		</View>
 	</Window>
 </Alloy>

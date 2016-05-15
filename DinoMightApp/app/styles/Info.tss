@@ -1,4 +1,26 @@
 
 ".container" : {
+
   
+}
+".content":{
+	layout:"vertical",
+	left:"30",
+	right:"30"
+}
+".header":{
+	layout:"horizontal",
+	height:"50",
+	align:"center"
+}
+
+".title":{
+	backgroundColor:"#3399cc",
+	width:"100%",
+	textAlign:"center"	
+}
+".textarea":{
+	textAlign:"center",
+	backgroundColor:"white",
+	color:"black"
 }
