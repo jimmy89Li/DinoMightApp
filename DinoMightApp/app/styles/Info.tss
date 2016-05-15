@@ -14,10 +14,25 @@
 	align:"center"
 }
 
+".pageName":{
+	font: {
+		fontWeight: "bold",
+		color: "white",
+		fontSize: "18dp"
+	}
+}
+
 ".title":{
 	backgroundColor:"#3399cc",
 	width:"100%",
-	textAlign:"center"	
+	height: "40",
+	textAlign:"center",
+	top: "1",
+	font: {
+		fontWeight: "bold",
+		color: "white",
+		fontSize: "18dp"
+	}
 }
 ".textarea":{
 	textAlign:"center",

@@ -18,15 +18,16 @@
 		<View class="content">
 			<View class="header">
 				<ImageView image="info.jpg"></ImageView>
-				<Label>Information</Label>
+				<Label class="pageName">INFORMATION</Label>
 			</View>
-			<Label class="title">The App</Label>
+			<Label class="title">THE APP</Label>
 			<Label class="textarea">Welcome to our app. Here you can:
-				browse between information  
-				watch videos about incontinence
-				do exercises
-				check your personal statistics
-				look at global stats
+				- browse between information  
+				- watch videos about incontinence
+				- do exercises
+				- check your personal statistics
+				- look at global stats
+				
 				Use the buttons to navigate through the app
 			</Label>
 			<Label class="title">INCONTINENCE</Label>
