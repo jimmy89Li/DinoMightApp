@@ -16,7 +16,7 @@
 		</View>
 		<View class="content">
 			<View class="header">
-				<ImageView image="video.png"></ImageView>
+				<ImageView image="exercise.png"></ImageView>
 				<Label class="pageName">INCONTINENCE EXERCISES</Label>
 			</View>
 			<Label class="title">Current level: Niagara Falls</Label>
