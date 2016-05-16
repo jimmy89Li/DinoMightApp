@@ -22,7 +22,7 @@
 			<Label class="title">Current level: Niagara Falls</Label>
 			<Label class="subtitle">210 exercises left for next level.</Label>
 			<ImageView class="vids" image="time.png"></ImageView>
-			<Button>Proceed</Button>
+			<Button class="proceedBtn">Proceed</Button>
 			<Label class="title">Dailly challenge progress:</Label>
 			<ImageView class="vids" image="progress.png"></ImageView>
 		</View>
