@@ -14,5 +14,30 @@
 				<ImageView class="topImage" image="graph.png"></ImageView>
 			</View>
 		</View>
+		<View class="content">
+			<View class="header">
+				<ImageView image="graph.png"></ImageView>
+				<Label class="pageName">STATISTICS</Label>
+			</View>
+			<View class="title">
+				<View class="left">
+					<Label>PERSONAL</Label>
+				</View>
+				<View class="right">
+					<Label>GENERAL</Label>
+				</View>
+			</View>
+			<View class="textarea">
+				<Label color="black" top="10">HELLO USER</Label>
+				<ImageView top="10" image="niagara.png"></ImageView>
+				<Label color="black" top="10">CURRENT LEVEL: NIAGARA FALLS</Label>
+				<Label color="black" top="20">Dailly challenge progress:</Label>
+				<ImageView image="progress.png"></ImageView>
+				<Label color="black" top="10">DAILLY CHALLENGES COMPLETED:</Label>
+				<Label color="black" top="10">13</Label>
+				<Label color="black" top="20">EXERCISES COMPLETED:</Label>
+				<Label color="black" top="10">24</Label>
+			</View>
+		</View>
 	</Window>
 </Alloy>
